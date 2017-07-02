@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Index</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="styleindex.css">
+</head>
+
+<body style="background-color:lightblue">
+<h1>Ini Header 1</h1>
+<p>Text 1</p>
+<hr>
+<h2>Ini Header 2</h2>
+<h3>Ini Header 3</h3>
+<p title="Ini Judul">Kesini</p>
+<p style="color:red">Ini merah.</p>
+<p style="color:green">Ini hijau.</p>
+<p style="color:yellow;font-family:verdana">Ini verdana kuning.</p>
+<p>Kalimat ini<br>putus</p>
+<a href="https://www.w3schools.com">Ini link</a>
+<p>Dibawahnya gambar</p>
+<img src="http://atlus.com/persona5/sp/images/intro_img1.png" width="100" height="100">
+</body>
+</html>
+
