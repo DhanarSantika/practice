@@ -1,6 +1,7 @@
 body {
 	background: url("Phantom.jpg") no-repeat center center fixed;
 	background-size : cover;
+	background-color : #E90101;
 }
 
 p {
