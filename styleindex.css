@@ -4,12 +4,36 @@ body {
 }
 
 p {
+	color : red;
+	text-align: center;
+	font-size : 20px;
+}
+
+p {
 	color : white;
 	text-align: center;
 	font-size : 20px;
 }
 
+div {
+	display : block;
+	background-color : black;
+	padding-top : 10px;
+	padding-bottom : 10px;
+}
+
 h1 {
 	color : lightgrey;
 	text-align : center;
+}
+
+.center{
+	margin : auto;
+	width : 50%;
+}
+
+.centerize {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
 }
