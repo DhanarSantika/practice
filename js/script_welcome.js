@@ -12,6 +12,7 @@ function Spoiler(){
 
 function PutParagraph(){
 	paragraph = ["According to all known laws of aviation","There is no way that a bee should be able to fly","Its wings are too small to get its fat little body off the ground","The bee, of course, flies anyways","Because bees don't care what humans think is impossible"];
+	link = "Homepage";
 	len = paragraph.length;
 	text = "";
 	button = "Close";
@@ -22,6 +23,7 @@ function PutParagraph(){
 		}
 	}
 	document.getElementById("card").innerHTML = text;
+	document.getElementById("cardlink").innerHTML = link;
 	document.getElementById("button").innerHTML = button;
 }
 
@@ -29,5 +31,6 @@ function DeleteParagraph(){
 	text = "";
 	button = "Read";
 	document.getElementById("card").innerHTML = text;
+	document.getElementById("cardlink").innerHTML = text;
 	document.getElementById("button").innerHTML = button;
 }
